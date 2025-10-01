@@ -6,6 +6,15 @@ __pycache__/
 # C extensions
 *.so
 
+# data & weights
+data/train/*
+data/val/*
+!data/names.txt
+!data/recycle.yaml
+
+# app
+app/tmp/
+
 # Distribution / packaging
 .Python
 build/

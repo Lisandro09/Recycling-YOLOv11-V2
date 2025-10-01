@@ -1,0 +1,8 @@
+train: dataset/data/train
+val: dataset/data/val
+
+nc: 3
+names:
+- plastic_bottle
+- glass_bottle
+- metal_can
